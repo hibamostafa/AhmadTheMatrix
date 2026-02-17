@@ -87,13 +87,13 @@
   "main": "eslint.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MennaTuallahmohamed/ahmedhr.git"
+    "url": "git+https://github.com/hibamostafa/ahmedhr.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MennaTuallahmohamed/ahmedhr/issues"
+    "url": "https://github.com/hibamostafa/ahmedhr/issues"
   },
-  "homepage": "https://github.com/MennaTuallahmohamed/ahmedhr#readme"
+  "homepage": "https://github.com/hibamostafa/ahmedhr#readme"
 }

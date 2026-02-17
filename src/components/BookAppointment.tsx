@@ -69,9 +69,9 @@ const ContactSection = () => {
                 className="lg:col-span-5 space-y-6"
             >
               {[
-                { icon: <Mail />, label: "Direct Email", value: "ahmad.ayoub@email.com", href: "mailto:ahmad.ayoub@email.com" },
-                { icon: <Phone />, label: "WhatsApp/Call", value: "+961 00 000 000", href: "tel:+96100000000" },
-                { icon: <MapPin />, label: "Location", value: "Beirut, Lebanon (Remote Ready)", href: "#" }
+                { icon: <Mail />, label: "Direct Email", value: "grow@ahmadthematrix.com", href: "mailto:grow@ahmadthematrix.com" },
+                { icon: <Phone />, label: "WhatsApp/Call", value: "+961 81 638 908", href: "tel:+961 81 638 908" },
+                { icon: <MapPin />, label: "Location", value: "Beirut, Lebanon", href: "#" }
               ].map((item, i) => (
                 <motion.a 
                     variants={fadeInUp}

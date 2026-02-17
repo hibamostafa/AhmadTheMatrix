@@ -110,8 +110,8 @@ const Hero = () => {
             {/* Contact Micro-Links */}
             <motion.div variants={itemVariants} className="flex gap-8 pt-8 border-t border-black/5 dark:border-white/5 w-fit">
               {[
-                { icon: Mail, label: "Direct Email", href: "mailto:ahmadthematrix@gmail.com" },
-                { icon: Linkedin, label: "Professional Profile", href: "https://linkedin.com" }
+                { icon: Mail, label: "Direct Email", href: "mailto:grow@ahmadthematrix.com" },
+                { icon: Linkedin, label: "Professional Profile", href: "https://www.linkedin.com/in/ayoub-ahmad?utm_source=share_via&utm_content=profile&utm_medium=member_android" }
               ].map((link, i) => (
                 <a key={i} href={link.href} target="_blank" rel="noopener noreferrer" className="text-[#142229]/40 dark:text-[#F1F1F1]/30 hover:text-[#B1D5CD] dark:hover:text-[#B1D5CD] transition-colors flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] group">
                   <link.icon className="w-4 h-4" /> 
