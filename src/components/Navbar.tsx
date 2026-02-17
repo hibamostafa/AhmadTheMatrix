@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, Linkedin, Mail, Sun, Moon } from "lucide-react";
 import { Button } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import logoLight from '../assets/Logo_Mark-light.png'; 
+import logoDark from '../assets/Logo_Mark-dark.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -52,13 +54,14 @@ const Navbar = () => {
       className="flex items-center gap-3 cursor-pointer group" 
       onClick={() => scrollToSection('hero')}
     >
-      <div className={`${mobile ? 'w-10 h-10' : 'w-12 h-12 md:w-16 md:h-16'} relative overflow-hidden rounded-xl transition-transform duration-300 group-hover:rotate-6 flex-shrink-0`}>
-         <img 
-          src={isDark ? "./src/assets/Logo_Mark-light.png" : "./src/assets/Logo_Mark-dark.png"} 
-          alt="Logo"
-          className="w-full h-full object-contain"
-         />
-      </div>
+    <div className={`${mobile ? 'w-10 h-10' : 'w-12 h-12 md:w-16 md:h-16'} relative ...`}>
+  <img 
+    // 2. Use the imported variables here instead of strings
+    src={isDark ? logoLight : logoDark} 
+    alt="Logo"
+    className="w-full h-full object-contain"
+  />
+</div>
       <div className="flex flex-col">
         <span className={`font-bold text-[#142229] dark:text-[#F1F1F1] tracking-tight leading-none ${mobile ? 'text-base' : 'text-lg'} transition-colors`}>
           AHMAD<span className="text-[#B1D5CD]">THEMATRIX</span>
